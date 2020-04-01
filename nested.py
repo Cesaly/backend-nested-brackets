@@ -34,7 +34,7 @@ def is_nested(line):
                 return "NO " + str(token_counter)
 
     if stack:
-        return "NO " + str(token)
+        return "NO " + str(token_counter)
     return "YES"
 
 
